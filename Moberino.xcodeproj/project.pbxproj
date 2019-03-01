@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBFCB3D122292D7800024D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB3D022292D7800024D4A /* AppDelegate.swift */; };
+		EBFCB3D322292D7900024D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBFCB3D222292D7900024D4A /* Assets.xcassets */; };
+		EBFCB3D622292D7900024D4A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBFCB3D422292D7900024D4A /* MainMenu.xib */; };
+		EBFCB3E222292D7900024D4A /* MoberinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB3E122292D7900024D4A /* MoberinoTests.swift */; };
+		EBFCB3ED22292D7900024D4A /* MoberinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB3EC22292D7900024D4A /* MoberinoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBFCB3DE22292D7900024D4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBFCB3C522292D7800024D4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBFCB3CC22292D7800024D4A;
+			remoteInfo = Moberino;
+		};
+		EBFCB3E922292D7900024D4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBFCB3C522292D7800024D4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBFCB3CC22292D7800024D4A;
+			remoteInfo = Moberino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBFCB3CD22292D7800024D4A /* Moberino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moberino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFCB3D022292D7800024D4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBFCB3D222292D7900024D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBFCB3D522292D7900024D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EBFCB3D722292D7900024D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFCB3D822292D7900024D4A /* Moberino.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Moberino.entitlements; sourceTree = "<group>"; };
+		EBFCB3DD22292D7900024D4A /* MoberinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoberinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFCB3E122292D7900024D4A /* MoberinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoberinoTests.swift; sourceTree = "<group>"; };
+		EBFCB3E322292D7900024D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFCB3E822292D7900024D4A /* MoberinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoberinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFCB3EC22292D7900024D4A /* MoberinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoberinoUITests.swift; sourceTree = "<group>"; };
+		EBFCB3EE22292D7900024D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBFCB3CA22292D7800024D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFCB3DA22292D7900024D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFCB3E522292D7900024D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBFCB3C422292D7800024D4A = {
+			isa = PBXGroup;
+			children = (
+				EBFCB3CF22292D7800024D4A /* Moberino */,
+				EBFCB3E022292D7900024D4A /* MoberinoTests */,
+				EBFCB3EB22292D7900024D4A /* MoberinoUITests */,
+				EBFCB3CE22292D7800024D4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBFCB3CE22292D7800024D4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBFCB3CD22292D7800024D4A /* Moberino.app */,
+				EBFCB3DD22292D7900024D4A /* MoberinoTests.xctest */,
+				EBFCB3E822292D7900024D4A /* MoberinoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBFCB3CF22292D7800024D4A /* Moberino */ = {
+			isa = PBXGroup;
+			children = (
+				EBFCB3D022292D7800024D4A /* AppDelegate.swift */,
+				EBFCB3D222292D7900024D4A /* Assets.xcassets */,
+				EBFCB3D422292D7900024D4A /* MainMenu.xib */,
+				EBFCB3D722292D7900024D4A /* Info.plist */,
+				EBFCB3D822292D7900024D4A /* Moberino.entitlements */,
+			);
+			path = Moberino;
+			sourceTree = "<group>";
+		};
+		EBFCB3E022292D7900024D4A /* MoberinoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBFCB3E122292D7900024D4A /* MoberinoTests.swift */,
+				EBFCB3E322292D7900024D4A /* Info.plist */,
+			);
+			path = MoberinoTests;
+			sourceTree = "<group>";
+		};
+		EBFCB3EB22292D7900024D4A /* MoberinoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBFCB3EC22292D7900024D4A /* MoberinoUITests.swift */,
+				EBFCB3EE22292D7900024D4A /* Info.plist */,
+			);
+			path = MoberinoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBFCB3CC22292D7800024D4A /* Moberino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFCB3F122292D7900024D4A /* Build configuration list for PBXNativeTarget "Moberino" */;
+			buildPhases = (
+				EBFCB3C922292D7800024D4A /* Sources */,
+				EBFCB3CA22292D7800024D4A /* Frameworks */,
+				EBFCB3CB22292D7800024D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moberino;
+			productName = Moberino;
+			productReference = EBFCB3CD22292D7800024D4A /* Moberino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBFCB3DC22292D7900024D4A /* MoberinoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFCB3F422292D7900024D4A /* Build configuration list for PBXNativeTarget "MoberinoTests" */;
+			buildPhases = (
+				EBFCB3D922292D7900024D4A /* Sources */,
+				EBFCB3DA22292D7900024D4A /* Frameworks */,
+				EBFCB3DB22292D7900024D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBFCB3DF22292D7900024D4A /* PBXTargetDependency */,
+			);
+			name = MoberinoTests;
+			productName = MoberinoTests;
+			productReference = EBFCB3DD22292D7900024D4A /* MoberinoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBFCB3E722292D7900024D4A /* MoberinoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFCB3F722292D7900024D4A /* Build configuration list for PBXNativeTarget "MoberinoUITests" */;
+			buildPhases = (
+				EBFCB3E422292D7900024D4A /* Sources */,
+				EBFCB3E522292D7900024D4A /* Frameworks */,
+				EBFCB3E622292D7900024D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBFCB3EA22292D7900024D4A /* PBXTargetDependency */,
+			);
+			name = MoberinoUITests;
+			productName = MoberinoUITests;
+			productReference = EBFCB3E822292D7900024D4A /* MoberinoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBFCB3C522292D7800024D4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Emil Persson";
+				TargetAttributes = {
+					EBFCB3CC22292D7800024D4A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EBFCB3DC22292D7900024D4A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EBFCB3CC22292D7800024D4A;
+					};
+					EBFCB3E722292D7900024D4A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EBFCB3CC22292D7800024D4A;
+					};
+				};
+			};
+			buildConfigurationList = EBFCB3C822292D7800024D4A /* Build configuration list for PBXProject "Moberino" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBFCB3C422292D7800024D4A;
+			productRefGroup = EBFCB3CE22292D7800024D4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBFCB3CC22292D7800024D4A /* Moberino */,
+				EBFCB3DC22292D7900024D4A /* MoberinoTests */,
+				EBFCB3E722292D7900024D4A /* MoberinoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBFCB3CB22292D7800024D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFCB3D322292D7900024D4A /* Assets.xcassets in Resources */,
+				EBFCB3D622292D7900024D4A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFCB3DB22292D7900024D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFCB3E622292D7900024D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBFCB3C922292D7800024D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFCB3D122292D7800024D4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFCB3D922292D7900024D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFCB3E222292D7900024D4A /* MoberinoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFCB3E422292D7900024D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFCB3ED22292D7900024D4A /* MoberinoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBFCB3DF22292D7900024D4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBFCB3CC22292D7800024D4A /* Moberino */;
+			targetProxy = EBFCB3DE22292D7900024D4A /* PBXContainerItemProxy */;
+		};
+		EBFCB3EA22292D7900024D4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBFCB3CC22292D7800024D4A /* Moberino */;
+			targetProxy = EBFCB3E922292D7900024D4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBFCB3D422292D7900024D4A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBFCB3D522292D7900024D4A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBFCB3EF22292D7900024D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBFCB3F022292D7900024D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EBFCB3F222292D7900024D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Moberino/Moberino.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Moberino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.svt.Moberino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		EBFCB3F322292D7900024D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Moberino/Moberino.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Moberino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.svt.Moberino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		EBFCB3F522292D7900024D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoberinoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.svt.MoberinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moberino.app/Contents/MacOS/Moberino";
+			};
+			name = Debug;
+		};
+		EBFCB3F622292D7900024D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoberinoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.svt.MoberinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moberino.app/Contents/MacOS/Moberino";
+			};
+			name = Release;
+		};
+		EBFCB3F822292D7900024D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoberinoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.svt.MoberinoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Moberino;
+			};
+			name = Debug;
+		};
+		EBFCB3F922292D7900024D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoberinoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.svt.MoberinoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Moberino;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBFCB3C822292D7800024D4A /* Build configuration list for PBXProject "Moberino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFCB3EF22292D7900024D4A /* Debug */,
+				EBFCB3F022292D7900024D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFCB3F122292D7900024D4A /* Build configuration list for PBXNativeTarget "Moberino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFCB3F222292D7900024D4A /* Debug */,
+				EBFCB3F322292D7900024D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFCB3F422292D7900024D4A /* Build configuration list for PBXNativeTarget "MoberinoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFCB3F522292D7900024D4A /* Debug */,
+				EBFCB3F622292D7900024D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFCB3F722292D7900024D4A /* Build configuration list for PBXNativeTarget "MoberinoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFCB3F822292D7900024D4A /* Debug */,
+				EBFCB3F922292D7900024D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBFCB3C522292D7800024D4A /* Project object */;
+}
