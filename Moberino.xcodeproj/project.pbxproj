@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB9D13BD224E2D1000F012E2 /* TeamBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9D13BC224E2D1000F012E2 /* TeamBundle.swift */; };
+		EB9D13BF224E418A00F012E2 /* sports.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB9D13BE224E418A00F012E2 /* sports.mp3 */; };
 		EBFCB3D122292D7800024D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB3D022292D7800024D4A /* AppDelegate.swift */; };
 		EBFCB3D322292D7900024D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBFCB3D222292D7900024D4A /* Assets.xcassets */; };
 		EBFCB3D622292D7900024D4A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBFCB3D422292D7900024D4A /* MainMenu.xib */; };
 		EBFCB3E222292D7900024D4A /* MoberinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB3E122292D7900024D4A /* MoberinoTests.swift */; };
 		EBFCB3ED22292D7900024D4A /* MoberinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB3EC22292D7900024D4A /* MoberinoUITests.swift */; };
+		EBFCB3FB222930AA00024D4A /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB3FA222930AA00024D4A /* StatusMenuController.swift */; };
+		EBFCB4022229372E00024D4A /* PauseWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB4002229372E00024D4A /* PauseWindowController.swift */; };
+		EBFCB405222938A800024D4A /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB404222938A800024D4A /* Timer.swift */; };
+		EBFCB40722294ED300024D4A /* TimerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB40622294ED300024D4A /* TimerService.swift */; };
+		EBFCB4092229559600024D4A /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB4082229559600024D4A /* AudioController.swift */; };
+		EBFCB40B2229579800024D4A /* news.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBFCB40A2229579800024D4A /* news.mp3 */; };
+		EBFCB40D222982F500024D4A /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = EBFCB40C222982F500024D4A /* Icons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB9D13BC224E2D1000F012E2 /* TeamBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamBundle.swift; sourceTree = "<group>"; };
+		EB9D13BE224E418A00F012E2 /* sports.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sports.mp3; sourceTree = "<group>"; };
 		EBFCB3CD22292D7800024D4A /* Moberino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moberino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFCB3D022292D7800024D4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBFCB3D222292D7900024D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +55,13 @@
 		EBFCB3E822292D7900024D4A /* MoberinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoberinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFCB3EC22292D7900024D4A /* MoberinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoberinoUITests.swift; sourceTree = "<group>"; };
 		EBFCB3EE22292D7900024D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFCB3FA222930AA00024D4A /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		EBFCB4002229372E00024D4A /* PauseWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseWindowController.swift; sourceTree = "<group>"; };
+		EBFCB404222938A800024D4A /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		EBFCB40622294ED300024D4A /* TimerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerService.swift; sourceTree = "<group>"; };
+		EBFCB4082229559600024D4A /* AudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		EBFCB40A2229579800024D4A /* news.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = news.mp3; sourceTree = "<group>"; };
+		EBFCB40C222982F500024D4A /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,11 +112,20 @@
 		EBFCB3CF22292D7800024D4A /* Moberino */ = {
 			isa = PBXGroup;
 			children = (
+				EBFCB40C222982F500024D4A /* Icons */,
 				EBFCB3D022292D7800024D4A /* AppDelegate.swift */,
+				EB9D13BC224E2D1000F012E2 /* TeamBundle.swift */,
+				EBFCB40622294ED300024D4A /* TimerService.swift */,
 				EBFCB3D222292D7900024D4A /* Assets.xcassets */,
+				EBFCB4002229372E00024D4A /* PauseWindowController.swift */,
 				EBFCB3D422292D7900024D4A /* MainMenu.xib */,
+				EBFCB4082229559600024D4A /* AudioController.swift */,
+				EBFCB404222938A800024D4A /* Timer.swift */,
 				EBFCB3D722292D7900024D4A /* Info.plist */,
 				EBFCB3D822292D7900024D4A /* Moberino.entitlements */,
+				EBFCB3FA222930AA00024D4A /* StatusMenuController.swift */,
+				EBFCB40A2229579800024D4A /* news.mp3 */,
+				EB9D13BE224E418A00F012E2 /* sports.mp3 */,
 			);
 			path = Moberino;
 			sourceTree = "<group>";
@@ -226,7 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBFCB3D322292D7900024D4A /* Assets.xcassets in Resources */,
+				EBFCB40D222982F500024D4A /* Icons in Resources */,
 				EBFCB3D622292D7900024D4A /* MainMenu.xib in Resources */,
+				EBFCB40B2229579800024D4A /* news.mp3 in Resources */,
+				EB9D13BF224E418A00F012E2 /* sports.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBFCB4022229372E00024D4A /* PauseWindowController.swift in Sources */,
+				EBFCB3FB222930AA00024D4A /* StatusMenuController.swift in Sources */,
 				EBFCB3D122292D7800024D4A /* AppDelegate.swift in Sources */,
+				EBFCB405222938A800024D4A /* Timer.swift in Sources */,
+				EBFCB4092229559600024D4A /* AudioController.swift in Sources */,
+				EBFCB40722294ED300024D4A /* TimerService.swift in Sources */,
+				EB9D13BD224E2D1000F012E2 /* TeamBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +452,7 @@
 		EBFCB3F222292D7900024D4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = NewsIcon;
 				CODE_SIGN_ENTITLEMENTS = Moberino/Moberino.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -425,8 +461,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = se.svt.Moberino;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "${TARGET_NAME}";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -434,7 +471,7 @@
 		EBFCB3F322292D7900024D4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = NewsIcon;
 				CODE_SIGN_ENTITLEMENTS = Moberino/Moberino.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -443,8 +480,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = se.svt.Moberino;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "${TARGET_NAME}";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;

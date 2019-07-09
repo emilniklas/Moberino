@@ -10,18 +10,18 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-    @IBOutlet weak var window: NSWindow!
-
-
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+    
+    @IBOutlet weak var pauseWindowController: PauseWindowController!
+    @IBOutlet weak var statusMenuController: StatusMenuController!
+    @IBOutlet weak var audioController: AudioController!
+    @IBOutlet weak var timerService: TimerService!
+    
+    override func awakeFromNib() {
+        timerService.eventsDelegates = [
+            statusMenuController,
+            audioController,
+            pauseWindowController,
+        ]
     }
-
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
-    }
-
-
 }
 
